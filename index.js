@@ -2,14 +2,16 @@ var yourAnimal = 'cat';
 var myAnimal = 'dog';
 
 function myAnimal() {
-  return  window.myAnimal
+  let myAnimalanimal = "cat"
+  return  myAnimal
 }
 
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  let yourAnimal = "dog" 
+  return yourAnimal
 }
 
 function add2(n) {
